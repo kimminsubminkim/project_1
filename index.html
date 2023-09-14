@@ -1,15 +1,72 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 </head>
+
 <body>
     <div class="container">
-        <head>야</head>
+        <header>
+            <ul class="header_top">
+                <li><a href="#">수어 콘텐츠</a></li>
+                <li><a href="#"> |로그인</a></li>
+                <li><a href="#"> |회원가입</a></li>
+                <li class="language"><a href="#"> |<img src="./img/internet.png" alt="language"
+                            class="language_box">Language</a></li>
+            </ul>
+            <!-- <hr> -->
+            <div class="header_down">
+                <div class="header_wrap">
+                    <h1 class="main_logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
+                </div>
+                <nav class="gnb">
+                </nav>
+            </div>
+            <div class="banner">
+                <p class="middle">불가능에 도전하여 가능을 창조한 독립정신</p>
+                <p class="big">대한민국 독립기념관</p>
+                <p class="small">독립기념관은 위대한 대한민국을 함께 만들어 가고자 합니다.</p>
+            </div>
+                <ul class="banner2">
+                    <li class="big_white1">관람시간</li>
+                    <li class="yellow"> ·3월~10월 | 09:30 ~ 18:00</li>
+                    <li> ·11월~2월 | 09:30 ~ 17:00</li>
+                    <li class="big_white2">휴관일</li>
+                    <li class="yellow">·월요일 휴관 (공휴일인 경우 정상 운영)</li>
+                </ul>
+            <div class="bxslider">
+                <div><img src="./img/visual1.png" alt="배너1"></div>
+                <div><img src="./img/visual2.png" alt="배너2"></div>
+                <div><img src="./img/visual3.png" alt="배너3"></div>
+                <div><img src="./img/visual4.png" alt="배너4"></div>
+            </div>
+            <div class="icon">
+                <div class="tour"><a href="#"><img src="./img/ico-tour.png" alt="">관람안내</a></div>
+                <div class="fac"><a href="#"><img src="./img/ico-facility.png" alt="">시설안내</a></div>
+                <div class="resv"><a href="#"><img src="./img/ico-reservation.png" alt="">예약·신청</a></div>
+                <div class="locate"><a href="#"><img src="./img/ico-locate.png" alt="">오시는 길</a></div>
+            </div>
+        </header>
         <main></main>
         <footer></footer>
     </div>
+    <script>
+        $('.bxslider').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 1150
+        });
+    </script>
 </body>
+
 </html>

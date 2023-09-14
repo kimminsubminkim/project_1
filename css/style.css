@@ -1,0 +1,127 @@
+#container{
+    margin: auto;
+    font-family: 'NotoSansKR', 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', sans-serif;
+}
+header {
+    width: 1900px;
+    max-height: 700px;
+    background-color: #124474;
+}
+
+hr {
+    color: #ffffff;
+    border: 0.5px;
+}
+
+.header_top {
+    max-width: calc(100% - 40rem);
+    display: flex;
+    padding: 10px 10px;
+    position: relative;
+    left: 1600px;
+    line-height: 24px;
+    font-size: 25px;
+    color: #ffffff;
+
+}
+
+.language_box {
+    width: 15px;
+    height: 15px;
+}
+
+.header_down {
+    max-width: calc(100% - 10%);
+    background-color: #124474;
+}
+
+.header_wrap {
+    max-width: calc(100% - 10%);
+    background-color: #124474;
+}
+
+.main_logo {
+    display: block;
+    width: 199px;
+    height: 34px;
+    position: relative;
+    left: 50px;
+    
+}
+
+.banner {
+    padding: 20px 20px;
+    max-width: calc(100% - 20%);
+    background-color: #124474;
+    font-weight: 400;
+}
+
+.middle {
+    max-width: calc(100% - 20%);
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.big {
+    max-width: calc(100% - 20%);
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.small {
+    font-size: 15px;
+    max-width: calc(100% - 20%);
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #ffcc2f !important;
+    font-weight: bold;
+}
+
+.banner2 {
+    width: 700px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+
+.banner2 {
+    background-color: #444;
+}
+
+.bx-wrapper {
+    position: relative;
+    left: 700px;
+    bottom: 325px;
+}
+
+.big_white1 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+
+}
+
+.big_white2 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.banner2 li {
+    color: #ffffff;
+}
+
+.yellow {
+    color: #ffcc2f;
+    font-weight: bold;
+}
