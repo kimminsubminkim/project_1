@@ -1,20 +1,17 @@
-#container{
+.container {
+    max-width: 1900px;
     margin: auto;
-    font-family: 'NotoSansKR', 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', sans-serif;
-}
-header {
-    width: 1900px;
-    max-height: 700px;
-    background-color: #124474;
 }
 
-hr {
-    color: #ffffff;
-    border: 0.5px;
+header {
+    width: 100%;
+    max-height: 700px;
+    background-color: #124474;
+    margin: auto;
 }
 
 .header_top {
-    max-width: calc(100% - 40rem);
+    width: 100%;
     display: flex;
     padding: 10px 10px;
     position: relative;
@@ -31,13 +28,13 @@ hr {
 }
 
 .header_down {
-    max-width: calc(100% - 10%);
-    background-color: #124474;
+    width: calc(100% - 10%);
 }
 
+
 .header_wrap {
-    max-width: calc(100% - 10%);
-    background-color: #124474;
+    width: calc(100% - 10%);
+
 }
 
 .main_logo {
@@ -46,13 +43,12 @@ hr {
     height: 34px;
     position: relative;
     left: 50px;
-    
+
 }
 
 .banner {
     padding: 20px 20px;
     max-width: calc(100% - 20%);
-    background-color: #124474;
     font-weight: 400;
 }
 
@@ -124,4 +120,39 @@ hr {
 .yellow {
     color: #ffcc2f;
     font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    position: relative;
+    bottom: 550px;
+    left: 200px;
+    color: #ffffff;
+}
+
+section .bx-wrapper {
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+
+.now {
+    position: relative;
+    top: 100px;
+    left: 200px;
+    color: #2180dc;
+    font-size: 18px;
+}
+
+.main-2 .bx-wrapper {
+    position: relative;
+    left: 1000px;
+}
+
+.tag_1 {
+    text-align: center;
+    padding: 5px 5px;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 25px 25px 25px 25px;
 }

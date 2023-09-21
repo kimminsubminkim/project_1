@@ -22,7 +22,7 @@
                 <li class="language"><a href="#"> |<img src="./img/internet.png" alt="language"
                             class="language_box">Language</a></li>
             </ul>
-            <!-- <hr> -->
+            <hr>
             <div class="header_down">
                 <div class="header_wrap">
                     <h1 class="main_logo"><a href="#"><img src="./img/logo.png" alt="logo"></a></h1>
@@ -35,13 +35,13 @@
                 <p class="big">대한민국 독립기념관</p>
                 <p class="small">독립기념관은 위대한 대한민국을 함께 만들어 가고자 합니다.</p>
             </div>
-                <ul class="banner2">
-                    <li class="big_white1">관람시간</li>
-                    <li class="yellow"> ·3월~10월 | 09:30 ~ 18:00</li>
-                    <li> ·11월~2월 | 09:30 ~ 17:00</li>
-                    <li class="big_white2">휴관일</li>
-                    <li class="yellow">·월요일 휴관 (공휴일인 경우 정상 운영)</li>
-                </ul>
+            <ul class="banner2">
+                <li class="big_white1">관람시간</li>
+                <li class="yellow"> ·3월~10월 | 09:30 ~ 18:00</li>
+                <li> ·11월~2월 | 09:30 ~ 17:00</li>
+                <li class="big_white2">휴관일</li>
+                <li class="yellow">·월요일 휴관 (공휴일인 경우 정상 운영)</li>
+            </ul>
             <div class="bxslider">
                 <div><img src="./img/visual1.png" alt="배너1"></div>
                 <div><img src="./img/visual2.png" alt="배너2"></div>
@@ -49,13 +49,58 @@
                 <div><img src="./img/visual4.png" alt="배너4"></div>
             </div>
             <div class="icon">
-                <div class="tour"><a href="#"><img src="./img/ico-tour.png" alt="">관람안내</a></div>
-                <div class="fac"><a href="#"><img src="./img/ico-facility.png" alt="">시설안내</a></div>
-                <div class="resv"><a href="#"><img src="./img/ico-reservation.png" alt="">예약·신청</a></div>
-                <div class="locate"><a href="#"><img src="./img/ico-locate.png" alt="">오시는 길</a></div>
+                <a href="#"><img src="./img/ico-tour.png" alt="투어">관람안내</a>
+                <a href="#"><img src="./img/ico-facility.png" alt="시설">시설안내</a>
+                <a href="#"><img src="./img/ico-reservation.png" alt="예약">예약·신청</a>
+                <a href="#"><img src="./img/ico-locate.png" alt="위치">오시는 길</a>
             </div>
         </header>
-        <main></main>
+        <main>
+            <section>
+                <h1 class="now">독립기념관은 지금</h1>
+                <div class="bxslider2">
+                    <div>
+                        <img src="./img/slide1.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/slide2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/slide3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/slide4.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/slide5.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./img/slide6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="main-2">
+                <div class="text1">
+                    <h1>독립기념관 상설전시</h1>
+                    <p>겨레의집 뒤로 보이는 7개의 상설 전시관에는
+                        우리 민족의 역사가 고스란히 담겨 있습니다.
+                        최첨단 전시로 독립운동사에 대한
+                        체험적이고 입체적인 관람이 가능합니다.
+                    </p>
+                </div>
+                <div class="bxslider3">
+                    <div><img src="img/main1.png" alt="전시1"></div>
+                    <div><img src="img/main2.png" alt="전시2"></div>
+                </div>
+            </section>
+            <section class="edu">
+                <h1>교육 프로그램</h1>
+                <h2>2023.09</h2>
+                <div class="tag_1">
+                    <p><a href="#">어린이·청소년(개인)</a></p>
+                </div>
+            </section>
+        </main>
         <footer></footer>
     </div>
     <script>
@@ -65,6 +110,19 @@
             stopAutoOnClick: true,
             pager: true,
             slideWidth: 1150
+        });
+        $('.bxslider2').bxSlider({
+            minSlides: 1,
+            maxSlides: 2,
+            slideWidth: 300,
+            slideMargin: 10
+        });
+        $('.bxslider3').bxSlider({
+            auto: true,
+            autoControls: true,
+            stopAutoOnClick: true,
+            pager: true,
+            slideWidth: 600
         });
     </script>
 </body>
