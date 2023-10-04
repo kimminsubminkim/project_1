@@ -91,7 +91,7 @@ header {
 }
 
 .bx-wrapper {
-    position: relative;
+    position: absolute;
     left: 700px;
     bottom: 325px;
 }
@@ -130,7 +130,7 @@ header {
     color: #ffffff;
 }
 
-.ask img{
+.ask img {
     width: 90px;
     height: 90px;
     position: fixed;
@@ -155,7 +155,14 @@ section .bx-wrapper {
     left: 1000px;
 }
 
+.article {
+    position: relative;
+    left: 1350px;
+    bottom: 100px;
+}
+
 .tag_1 {
+    border: 1px solid black;
     text-align: center;
     padding: 5px 5px;
     width: 150px;
@@ -163,30 +170,48 @@ section .bx-wrapper {
     border-radius: 25px 25px 25px 25px;
 }
 
+.edu_picture {
+    position: absolute;
+    left: 1000px;
+}
 
+.menu {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    width: 1000px;
+    overflow: hidden;
+    margin:auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-    width: 100%;
-    height: 150px;
+.menu>li {
+    width: 20%;
+    float: left;
+    text-align: center;
     background-color: #124474;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.submenu>li {
+    line-height: 50px;
+    background-color: #124474;
+}
+
+.submenu {
+    height: 0;
+    overflow: hidden;
+}
+
+.menu>li:hover {
+    background-color: #124474;
+    transition-duration: 0.5s;
+}
+
+.menu>li:hover .submenu {
+    height: 250px;
+    transition-duration: 1s;
 }
